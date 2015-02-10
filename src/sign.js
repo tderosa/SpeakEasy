@@ -9,6 +9,7 @@ $(document).ready(function(e){
 
     // channel = asl
     // binding event = ping
+    //pusher and channel link the data output from the backend to the UI
     var pusher = new Pusher('4b8b8ec8b7438706bd80');
     var channel = pusher.subscribe('asl');
     channel.bind('ping', function(data) {
@@ -17,6 +18,8 @@ $(document).ready(function(e){
         elem.scrollTop = 99999999;
     });
 
+
+    //enables download function
     function saveTextAsFile(){
         var textToWrite = $("#text").val();
         var textFileAsBlob = new Blob([textToWrite], {type:'text/plain'});
@@ -53,6 +56,7 @@ $(document).ready(function(e){
         });
     }
 
+    //placeholder for text to fade in and out
     function fadeText(string){ 
         hex=255 // Initial color value.
             if(hex>0) { //If color is not black yet
