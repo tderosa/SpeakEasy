@@ -1,0 +1,61 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+
+body {
+	background-color: #003366 !important;
+	font-family: 'Raleway', Arial !important;
+
+	margin: auto;
+	font-size: 13px;
+	color: #e2e6e9 !important;
+}
+
+#filename {
+	width:100px;
+}
+
+div h1 {
+	letter-spacing: -3px;
+	text-align: center;
+	margin-bottom: 5px;
+	font-size: 45px;
+}
+
+
+#textarea_div textarea, #control_panel input, #control_panel a {
+	margin-top: 1%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	color: rgb(0,0,0);
+	overflow: visible;
+}
+
+#textarea_div textarea {
+	overflow: visible;
+}
+
+
+#control_panel a {
+	width: 30%;
+}
+
+img {
+
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+}
+
+#music audio {
+	margin-top: 2%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#items_div {
+	width: 50%;
+	margin-right: auto;
+	margin-left: auto;
+}
